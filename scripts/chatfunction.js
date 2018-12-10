@@ -1,0 +1,1 @@
+/* Creates the chat for FriendZone */
