@@ -1,3 +1,40 @@
-#footer{
-    
+/* Font face START */
+@font-face{
+    font-family: Circular;
+    src: url(/fonts/lineto-circular-pro-book.ttf);
 }
+
+@font-face{
+    font-family: Circular;
+    src: url(/fonts/lineto-circular-pro-bold.ttf);
+    font-weight: bold;
+}
+/* Font face END*/
+
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#copyright{
+    padding: 1rem;
+    align-content: center;
+    font-family: Circular;
+}
+
+#om-oss{
+    color: black;
+    font-family: Circular;
+}
+
+#no-isolation-logo{
+    width: 110px;
+    position: fixed;
+    left: 5rem;
+    bottom: 3.1rem;
+}
+
