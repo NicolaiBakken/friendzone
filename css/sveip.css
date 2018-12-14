@@ -1,0 +1,81 @@
+/* box */
+#background{
+    position: relative;
+    background-color: #3d3d3d;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    padding: 10px; 
+}
+
+#background-icons{
+    position: relative;
+    background-color: #a8a8a8;
+    margin: auto;
+    height: 360px;
+    padding: 15px;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* icons */ 
+
+#pizza{
+    margin: auto;
+    font-family: Circular;
+}
+
+#yt{
+    margin: auto;
+    font-family: Circular;
+}
+
+#sun{
+    margin: auto;
+    font-family: Circular;
+}
+
+#drink{
+    margin: auto;
+    font-family: Circular;
+}
+
+/* navn alder */ 
+
+#name-age{
+    font-size: 40px;
+    color: red;
+    font-family: Circular;
+    text-align: center;
+}
+
+/* buttons */
+
+#btn-opp{
+    position: absolute;
+    background-color: #a8a8a8;
+    right: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    bottom: 30px;
+}
+
+#btn-ned{
+    position: absolute;
+    background-color: #a8a8a8;
+    left: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    bottom: 30px;
+}
+
+/* buttons end */
+
+
+
