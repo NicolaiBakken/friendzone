@@ -1,0 +1,1 @@
+// hjelp med javascript please
