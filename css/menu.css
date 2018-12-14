@@ -25,6 +25,7 @@ nav li a{
     text-decoration: none;
     font-family: Circular;
     font-size: 20px;
+    cursor: pointer;
 }
 
 /* navigation menu end */

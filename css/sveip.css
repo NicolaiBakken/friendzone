@@ -22,22 +22,22 @@
 
 /* icons */ 
 
-#pizza{
+#interest1{
     margin: auto;
     font-family: Circular;
 }
 
-#yt{
+#interest2{
     margin: auto;
     font-family: Circular;
 }
 
-#sun{
+#interest3{
     margin: auto;
     font-family: Circular;
 }
 
-#drink{
+#interest4{
     margin: auto;
     font-family: Circular;
 }
@@ -76,6 +76,42 @@
 }
 
 /* buttons end */
+
+#popup-box{
+    background-color: grey;
+    width: 500px;
+    height: 150px;
+    position: fixed;
+    left: 710px;
+    top: 200px;
+    z-index: 2;
+    border-radius: 25px;
+    opacity: 0;
+    
+}
+
+#popup-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+        
+}
+
+#btn-videre{
+    
+    margin-left: 25px;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    
+}
+
+#btn-tilChat{
+    margin-left: 200px;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    
+}
 
 
 
