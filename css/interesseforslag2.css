@@ -1,0 +1,107 @@
+/* navigation menu start */
+@font-face{
+    font-family: Circular;
+    src: url(/fonts/lineto-circular-pro-book.ttf);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e9e9e9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+nav li a{
+    display: block;
+    color: #ed9a38;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Circular;
+    font-size: 20px;
+}
+
+/* navigation menu end */
+
+#main-container{
+    height: 100%;
+    margin-top: 300px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:  60px 60px 60px;
+    grid-template-areas: 
+        "j j j j j j j j j s s s"
+        "n n n n n n n n n e e e"
+        "v v v v v v v v v d d d"
+        ;  
+}
+
+#justin{
+    grid-area: j;
+    background-color: lightgray;
+
+}
+
+#nicolai{
+    grid-area: n;
+    background-color: lightgray;
+}
+
+#ville-villsvin{
+    grid-area: v;
+    background-color: lightgray;
+}
+
+#send{
+    grid-area: s;
+    background-color: lightgray;
+}
+
+#send2{
+    grid-area: e;
+    background-color: lightgray;
+}
+
+#send3{
+    grid-area: d;
+    background-color: lightgray;
+}
+
+
+#btn-1{
+    text-decoration: none;
+    margin-top: 20px;
+    align-content: center;
+    font-family: Circular;
+}
+
+#btn-2{
+    text-decoration: none;
+    margin-top: 20px;
+    align-content: center;
+    font-family: Circular;
+}
+
+#btn-3{
+    text-decoration: none;
+    margin-top: 20px;
+    align-content: center;
+    font-family: Circular;
+}
+
+p{
+    text-align: center;
+    font-family: Circular;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}

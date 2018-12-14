@@ -1,0 +1,90 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+
+/* navigation menu start */
+@font-face{
+    font-family: Circular;
+    src: url(/fonts/lineto-circular-pro-book.ttf);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e9e9e9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+nav li a{
+    display: block;
+    color: #ed9a38;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Circular;
+    font-size: 20px;
+}
+
+/* navigation menu end */
+
+#main-container{
+}
+
+#interests{
+    margin-top: 150px;
+    font-family: Circular;
+}
+
+.interest1{
+    background-color: lightgray;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.interest2{
+    background-color: lightgray;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.interest3{
+    background-color: lightgray;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 200px;
+    font-family: Circular;
+}
+
+#btn-1{
+    text-decoration: none;
+    margin-left: 620px;
+    color: white;
+    font-size: 2rem;
+}
+
+#btn-2{
+    text-decoration: none;
+    margin-left: 620px;
+    color: white;
+    font-size: 2rem;
+}
+
+#btn-3{
+    text-decoration: none;
+    margin-left: 620px;
+    color: white;
+    font-size: 2rem;
+}
