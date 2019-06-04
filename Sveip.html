@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sveip</title>
+    <link rel="stylesheet" type="text/css" href="css/meyers-reset.css">
+    <link rel="stylesheet" type="text/css" href="css/sveip.css"> 
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+   
+    
+</head>
+<body id="body">
+  
+     <!--Navigation menu start -->
+   <!-- teksten skal bli ikoner don´t @ me-->
+   <nav>
+       <ul>
+          <li style="float:right"><a href="chat.html"><img id="swipe-nav-icon" src="Bilder/snakkeboble.png"></a></li>
+          <li style="float:left"><a href="profilv2.html"><img id="swipe-nav-icon" src="Bilder/profilicon.png"></a></li>
+          <li style="text-align: center"><a href="sveip.html"><img id="swipe-nav-icon" src="Bilder/swipeicon.png"></a> </li>  
+       </ul>   
+   </nav>
+   
+   <!--Navigation Menu End --> 
+   
+   <!--Background start --> 
+   
+   
+   <div id="background">
+
+    <div id="horisontal-line"></div>
+    <div id="vertical-line"></div>
+
+    <button id="menu-button" type="button">...</button>
+      
+       <div id="background-icons">
+         <img class="icons" id="interestImg1" src="Bilder/mote.png"> <!-- p tags blir img-tags-->
+         <img class="icons" id="interestImg2" src="Bilder/friluft.png">
+         <img class="icons" id="interestImg3" src="Bilder/film.png">
+         <img class="icons" id="interestImg4" src="Bilder/hund.png">
+       </div>  
+
+
+        <p id="name-age">Ola</p>
+
+        <div id="breakline"></div>
+
+        <p id="user-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi ducimus consequuntur atque, eos quas labore dignissimos repudiandae incidunt tempora aperiam! Quibusdam ducimus quisquam eius expedita quaerat culpa corporis iusto, molestiae provident nemo illum, dolore perspiciatis labore impedit laudantium recusandae! Culpa.</p>
+       
+         <!--- buttons start -->
+        <div id="btn-ned-container">
+          <img id="btn-ned" src="Bilder/tommelned.png">
+        </div>
+        <div id="btn-opp-container">
+          <img id="btn-opp" src="Bilder/tommelopp.png">
+        </div>
+        
+     
+       <!--- buttons end ---> 
+    
+   </div>
+   
+   <div id="popup-box">
+        <div id="bitmoji-container">
+          <img id="bitmoji" src="Bilder/bitmoji1.png">
+        </div>
+         <p id="popup-text">MATCH!</p>
+         <div id="popup-text-container">
+          <p id="likeName">Svein</p>
+          <p id="after-name-text"> er lagt til i din friendzone!</p>
+         </div>
+         <button id="btn-videre" type button>Swipe videre</button>
+         <button id="btn-tilChat" onclick="window.location.href='chat.html'" type button>Start Samtale</button>
+         
+     </div>
+   
+   
+   <!-- Background end --> 
+   
+   <script src="Scripts/Sveip.js"></script>
+   <script src="Scripts/storeTest.js"></script>
+  
+    
+</body>
+</html>

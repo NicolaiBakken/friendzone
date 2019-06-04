@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/meyers-reset.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Menu.css">
+    <link rel="stylesheet" type="text/css" href="CSS/registreringv2.css">
+    <link rel="stylesheet" href="CSS/jquery-ui.min.css">
+
+    <title>Registrering</title>
+</head>
+<body>
+
+    <!--Navigation menu start -->
+   <!-- teksten skal bli ikoner don´t @ me-->
+   <nav>
+       <ul>
+          <li style="text-align: center"><img id="swipe-nav-icon" src="Bilder/swipeicon.png"></li>  
+       </ul>   
+   </nav>
+   
+   <!--Navigation Menu End --> 
+   
+   <!--Background start --> 
+
+   <header>
+       <h1>OPPRETT BRUKER</h1>
+   </header>
+
+   <div id="main-content-container">
+        <p id="studiested">Velg studiested</p>
+        <div id="select-studiested">
+            <select name="sted" id="sted">
+              <option selected="selected">Oslo</option>
+              <option>Bergen</option>
+              <option>Trondheim</option>
+              <option>Gjøvik</option>
+              <option>Bodø</option>
+            </select>
+            </div>
+
+            <p id="skole">Skole</p>
+        <div id="select-skole">
+            <select name="sted" id="sted">
+              <option>Kristiania</option>
+              <option>BI</option>
+              <option>UiO</option>
+              <option>OsloMet</option>
+              <option>Kristenfagskole</option>
+            </select>
+            </div>
+            <p id="studentmail">Studentmail</p>
+            <input id="mail-input" type="text" placeholder="olanord@kristiania.no">
+            <input id="privacy-check" type="checkbox">
+            <p id="privacy-text">Jeg godtar lokal lagring av mine data.</p>
+
+            <button id="next-page" disabled>Videre</button>
+
+            <div id="confirmation-page">
+                <div id="activation-text-container">
+                    <p id="activation-code">Aktiveringskode sendt til:</p>
+                    <p id="studentmail-output">testEmail</p>
+                </div>
+                <div id="codebox-container">
+                    a: <input class="codebox" id="codebox-1" type="text" maxlength="1">
+                    b: <input class="codebox" id="codebox-2" type="text" maxlength="1">
+                    c: <input class="codebox" id="codebox-3" type="text" maxlength="1">
+                    d: <input class="codebox" id="codebox-4" type="text" maxlength="1">
+                </div>
+
+            </div>
+            
+    </div>
+   
+    <script src="Scripts/storeTest.js"></script>
+   
+</body>
+</html>
