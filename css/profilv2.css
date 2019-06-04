@@ -1,0 +1,95 @@
+#main-content-wrapper {
+    background-color: #F2F2F2;
+    height: 812px;
+    width: 375px;
+}
+
+#bitmoji-container {
+    position: absolute;
+    left: 87.5px;
+    top: 120px;
+    display: grid;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(200, 100, 150);
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+#bitmoji {
+    height: 100%;
+}
+
+.btn {
+    background-color: white;
+}
+
+#kontaktinformasjon-btn {
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    border-top: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 375px;
+    height: 30px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn-seperator {
+    position: absolute;
+    top: 430px;
+    left: 45px;
+    width: 275px;
+    height: 1px;
+    background-color: black;
+}
+
+#profil-btn {
+    position: absolute;
+    left: 0px;
+    top: 430px;
+    width: 375px;
+    height: 30px;
+    border-top: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#personvern-btn {
+    position: absolute;
+    left: 0px;
+    top: 500px;
+    width: 375px;
+    height: 30px;
+    border-top: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#varslinger-btn {
+    position: absolute;
+    left: 0px;
+    top: 570px;
+    width: 375px;
+    height: 30px;
+    border-top: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

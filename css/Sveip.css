@@ -1,0 +1,339 @@
+#body {
+    z-index: 1;
+    height: 812px;
+    width: 375px;
+}
+
+/* box */
+#background{
+    position: absolute;
+    background-color: #3d3d3d;
+    margin: auto;
+    height: 812px;
+    width: 800px;
+    top: 75px;
+    padding: 10px; 
+    left: 540px;
+    border-radius: 20px;
+}
+
+#background-icons{
+    position: relative;
+    background-color: #ed9a38;
+    margin: auto;
+    height: 360px;
+    padding: 15px;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#horisontal-line {
+    position: absolute;
+    width: 800px;
+    height: 5px;
+    background-color: #3d3d3d;
+    z-index: 3;
+    top: 200px;
+}
+
+#vertical-line {
+    position: absolute;
+    width: 5px;
+    height: 400px;
+    background-color: #3d3d3d;
+    z-index: 3;
+    top: 1px;
+    left: 400px;
+}
+
+/* icons */ 
+
+.icons {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+
+
+#interest2{
+    margin: auto;
+    font-family: Circular;
+}
+
+#interest3{
+    margin: auto;
+    font-family: Circular;
+}
+
+#interest4{
+    margin: auto;
+    font-family: Circular;
+}
+
+/* navn alder */ 
+
+#name-age{
+    position: absolute;
+    font-size: 100px;
+    color: #ed9a38;
+    font-family: Circular;
+    text-align: center;
+}
+
+/* buttons */
+
+#btn-opp{
+    height: 70px;
+    width: 70px;
+}
+
+#btn-ned{
+    height: 70px;
+    width: 70px;
+}
+
+
+
+/* buttons end */
+
+#popup-box{
+    width: 500px;
+    height: 150px;
+    z-index: 10;
+    
+}
+
+#popup-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+        
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #background {
+        left: 0px;
+    }
+
+    #vertical-line {
+        display: none;
+    }
+
+    #horisontal-line {
+        display: none;
+    }
+
+    #name-age {
+        font-size: 40px;
+        position: absolute;
+        left: 35%;
+        bottom: 35%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    #background {
+        position: fixed;
+        width: 315px;
+        height: 550px;
+        left: 20px;
+
+        background-color: #ed9a38;
+        box-shadow: 1px 1px 5px;
+    }
+
+    #background-icons {
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .icons {
+        margin: auto;
+        height: 75px;
+        width: 75px;
+    }
+
+    #btn-opp-container {
+        position: absolute;
+        display: grid;
+        width: 110px;
+        height: 110px;
+        top: 600px;
+        right: 30px;
+        background-color: rgb(237, 237, 237);
+        align-content: center;
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: 0px 1px 4px 0px;
+
+    }
+
+    #btn-opp {
+        height: 80px;
+        width: 70px;
+
+    }
+
+
+    #btn-ned-container {
+        position: absolute;
+        display: grid;
+        width: 110px;
+        height: 110px;
+        top: 600px;
+        left: 45px;
+        background-color: rgb(237, 237, 237);
+        align-content: center;
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: 0px 1px 4px 0px;
+
+    }
+
+    #btn-ned {
+        height: 80px;
+        width: 70px;
+    }
+
+    #btn-ned:active, #btn-opp:active {
+        transform: translateY(4px);
+    }
+
+
+
+    #name-age {
+        color: white;
+        margin-bottom: 50px;
+        text-align: center;
+
+    }
+
+    #user-info{
+        color: black;
+        margin-top: 5rem;
+        margin-left: 1rem;
+    }
+
+    #breakline {
+        position: absolute;
+        left: 60px;
+        top: 340px;
+        border-radius: 25px;
+        width: 220px;
+        height: 1px;
+        background-color: black;
+    }
+
+    #menu-button {
+        position: absolute;
+        font-size: 40px;
+        right: 20px;
+        top: -5px;
+        z-index: 2;
+        color: black;
+        border: none;
+        background: none;
+    }
+
+    #popup-box{
+        background-color: white;
+        width: 375px;
+        height: 812px;
+        position: absolute;
+        z-index: 10;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    #bitmoji-container {
+        position: absolute;
+        left: 87.5px;
+        top: 150px;
+        display: grid;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(200, 100, 150);
+        border: 1px solid black;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    #bitmoji {
+        height: 100%;
+    }
+    
+    #popup-text{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        font-size: 2rem;
+            
+    }
+
+    #btn-videre{
+        background-color: #DF904D;
+        width: 200px;
+        height: 40px;
+        position: absolute;
+        border: none;
+        left: 85px;
+        top: 600px;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        
+    }
+    
+    #btn-tilChat{
+        background-color: #DF904D;
+        width: 200px;
+        height: 40px;
+        position: absolute;
+        border: none;
+        left: 85px;
+        top: 675px;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        
+        
+        
+    }
+
+    #popup-text-container {
+        position: absolute;
+        left: 60px;
+        top: 375px;
+        height: 200px;
+        width: 250px;
+    }
+
+    #likeName {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #after-name-text {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+}
+
+@media only screen and (max-width: 360px) {
+    #background {
+        width: 270px;
+        left: 25px;
+    }
+}
