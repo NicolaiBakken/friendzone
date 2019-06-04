@@ -10,7 +10,6 @@ let messageContainer = document.getElementById("message-container");
 let sentMessage = "";
 let bubbleSize = 4;
 
-
 sendButton.onclick = sendMessage;
 
 inputText.addEventListener("keyup", function(event) {
@@ -51,6 +50,7 @@ function sendMessage(){
                
     }
 }
+
 
 //Sjekker om sendt melding inneholder diverse strings og skriver ut passende svar. 
 

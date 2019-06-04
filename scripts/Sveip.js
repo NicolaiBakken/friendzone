@@ -15,20 +15,20 @@ let userInfo1 = ["Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex o
 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo cum, nihil perspiciatis corporis minima neque dolorem, illo quae, qui maiores odio labore sint eum at perferendis sequi eius culpa! Officiis molestiae ad numquam ducimus pariatur dolore molestias iste quisquam placeat."]
 
 
-let i1 = ["Bilder/mat.png", "Bilder/løing.png"];
+let i1 = ["images/mat.png", "images/løing.png"];
 let i1random = i1[Math.floor(Math.random() * i1.length)];
 
-let i2 = ["Bilder/katt.png", "Bilder/film.png"];
+let i2 = ["images/katt.png", "images/film.png"];
 let i2random = i2[Math.floor(Math.random() * i2.length)];
 
-let i3 = ["Bilder/hund.png", "Bilder/nattklubb.png"];
+let i3 = ["images/hund.png", "images/nattklubb.png"];
 let i3random = i3[Math.floor(Math.random() * i3.length)];
 
-let i4 = ["Bilder/reise.png", "Bilder/snakkeboble.png"];
+let i4 = ["images/reise.png", "images/snakkeboble friendzone.png"];
 let i4random = i4[Math.floor(Math.random() * i4.length)];
 
 
-let bitmojiIcons = ["Bilder/bitmoji2.png", "Bilder/bitmoji3.png", "Bilder/bitmoji4.png", "Bilder/bitmoji5.png", "Bilder/bitmoji6.png"]; 
+let bitmojiIcons = ["images/bitmoji2.png", "images/bitmoji3.png", "images/bitmoji4.png", "images/bitmoji5.png", "images/bitmoji6.png"]; 
 let randomBitmoji = "";
 
 let name = ["Kjetil", "Jesper", "Ole", "Ivar", "Nora", "Emilie", "Nicolai", "Abdullah", "Philip"];
