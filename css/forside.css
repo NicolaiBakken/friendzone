@@ -1,0 +1,48 @@
+#main-page-container{
+    position: absolute;
+    background-color: #F2F2F2;
+    height: 100%;
+}
+
+#main-icon{
+    text-align: center;
+    margin: 150px;
+    position: relative;
+    top: 200px;
+}
+
+.button-1{
+    top: 350px;
+    position: relative;
+    background-color: #DF904D;
+    border: none;
+    height: 150px;
+    width: 600px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 120px 2px;
+    border-radius: 13px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-2{
+    top: 200px;
+    position: relative;
+    background-color: #DC6BDC;
+    border: none;
+    height: 150px;
+    width: 600px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 55px;
+    margin: 120px 2px;
+    border-radius: 13px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
