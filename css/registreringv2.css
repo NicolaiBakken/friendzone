@@ -1,6 +1,6 @@
 #swipe-nav-icon {
     width: 120px;
-    height: 80px;
+    height: 50px;
     align-content: center;
     justify-content: center;
     
@@ -46,56 +46,65 @@ header {
     position: absolute;
     top: 225px;
     left: 140px;
+   font-size: 18px;
 }
 
 #select-studiested {
     position: absolute;
-    left: 100px;
+    left: 40px;
     top: 250px;
-    border-radius: 15px;
+    border-radius: 13px;
+    box-shadow: 0 4px 3px 0 rgba(0,0,0,0.2), 0 1px 0px 0 rgba(0,0,0,0.19);
 }
 
 
 #sted {
-    width: 200px;
-    height: 30px;
-    border-radius: 15px;
-    padding-left: 55px;
-    background-color: #F2F2F2;
+    width: 300px;
+    height: 40px;
+    border-radius: 13px;
+    padding-left: 120px;
+    background-color: #d8d8d8;
+    font-size: 15px;
+    
 }
 
 #skole {
     position: absolute;
-    top: 375px;
+    top: 335px;
     left: 175px;
+    font-size: 18px;
 }
 
 #select-skole {
     position: absolute;
-    left: 100px;
-    top: 400px;
+    left: 37px;
+    top: 360px;
     border-radius: 15px;
+    box-shadow: 0 4px 3px 0 rgba(0,0,0,0.2), 0 1px 0px 0 rgba(0,0,0,0.19);
 }
 
 #studentmail {
     position: absolute;
-    top: 475px;
+    top: 435px;
     left: 160px;
+    font-size: 18px;
 }
 
 #mail-input {
     position: absolute;
-    top: 500px;
-    width: 200px;
-    height: 30px;
-    left: 100px;
-    border-radius: 15px;
+    top: 460px;
+    width: 300px;
+    height: 40px;
+    left: 40px;
+    border-radius: 13px;
     border: 1px solid grey;
+    background-color: #d8d8d8;
+    box-shadow: 0 4px 3px 0 rgba(0,0,0,0.2), 0 1px 0px 0 rgba(0,0,0,0.19);
 }
 
 #privacy-check {
     position: absolute;
-    left: 100px;
+    left: 75px;
     top: 570px;
     width: 20px;
     height: 20px;
@@ -103,7 +112,7 @@ header {
 
 #privacy-text {
     position: absolute;
-    left: 150px;
+    left: 110px;
     top: 570px;
 
 }
@@ -114,9 +123,11 @@ header {
     left: 100px;
     width: 200px;
     height: 50px;
-    border-radius: 15px;
+    font-size: 15px;
+    border-radius: 13px;
     border-style: none;
-    color: white;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #confirmation-page {
@@ -139,15 +150,15 @@ header {
 }
 
 #activation-code {
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
-    font-size: 25px;
+    font-size: 21px;
 }
 
 #studentmail-output {
-    margin-top: 50px;
+    margin-top: 38px;
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 
@@ -157,31 +168,31 @@ header {
     z-index: 2;
     width: 60px;
     height: 60px;
-    border: 1px solid rgb(50, 50, 50);
-    box-shadow: 1px, 1px, 1px;
+    border: 1px solid #d8d8d8;
+    box-shadow: 2px, 2px, 2px;
     text-align: center;
     font-size: 30px;
-    background-color: grey;
+    background-color: #d8d8d8;
     color: white;
 }
 
 #codebox-1 {
-    top: 400px;
+    top: 370px;
     left: 50px;
 }
 
 #codebox-2 {
-    top: 400px;
+    top: 370px;
     left: 125px;
 }
 
 #codebox-3 {
-    top: 400px;
+    top: 370px;
     left: 200px;
 }
 
 #codebox-4 {
-    top: 400px;
+    top: 370px;
     left: 275px;
 }
 
