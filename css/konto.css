@@ -1,0 +1,118 @@
+body {
+    background-color: #f2f2f2;
+}
+
+*{
+    position: absolute;
+}
+
+#personinfo {
+    top: 180px;
+}
+
+.container {
+    background-color: white;
+    width: 375px;
+    height: 40px;
+}
+
+/* ----- Navn ---- */
+
+#navn-container {
+    top: 200px;
+}
+
+#username-text {
+    left: 5px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#username-output {
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    text-align: right;
+}
+
+/* ----- Email ---- */
+#email-container {
+    top: 245px;
+}
+
+#email-text {
+    left: 5px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#email-output {
+    top: 8px;
+    right: 5px;
+    font-size: 20px;
+    width: 300px;
+    border: none;
+    text-align: right;
+}
+
+/* ----- Fødselsdato ---- */
+
+#fødselsdato-container {
+    top: 290px;
+}
+
+#fødselsdato-text {
+    left: 5px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#fødselsdato-output {
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+}
+
+/* ----- Lokasjon ---- */
+
+#lokasjon {
+    top: 400px;
+}
+
+#lokasjon-container {
+    top: 420px;
+}
+
+#lokasjon-output {
+    top: 10px;
+    right: 5px;
+    font-size: 20px;
+}
+
+#delete-container {
+    top: 600px;
+}
+
+#oppdater-button {
+    border: none;
+    height: 30px;
+    width: 140px;
+    top: 5px;
+    left: 20px;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #FEAB53;
+}
+
+#slett-button {
+    top: 5px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    right: 20px;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(255, 50, 50)
+}

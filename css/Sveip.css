@@ -19,7 +19,7 @@
 
 #background-icons{
     position: relative;
-    background-color: #ed9a38;
+    background-color: #FEAB53;
     margin: auto;
     height: 360px;
     padding: 15px;
@@ -144,7 +144,7 @@
         height: 550px;
         left: 20px;
 
-        background-color: #ed9a38;
+        background-color: #FEAB53;
         box-shadow: 1px 1px 5px;
     }
 
@@ -208,8 +208,9 @@
 
 
     #name-age {
-        color: white;
+        color: black;
         margin-bottom: 50px;
+        margin-right: 20px;
         text-align: center;
 
     }
@@ -327,6 +328,7 @@
         font-size: 2rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+
 
 
 }

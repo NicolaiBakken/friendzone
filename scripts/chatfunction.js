@@ -59,7 +59,7 @@ function autoReply(){
         let replyMessage = "";
         
         replyMessage += `
-            <p id="userNameBot">Ola</p>
+            <p id="userNameBot">${localStorage.getItem("likename")}</p>
             <div id="messageArea-reply">
                 <p id="sentMessage">Halla!</p>
             </div>

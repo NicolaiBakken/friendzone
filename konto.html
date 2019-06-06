@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/meyers-reset.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/konto.css">
+    <link rel="stylesheet" type="text/css" href="CSS/jquery-ui.min.css">
+    <title>Konto</title>
+</head>
+<body>
+
+    <!--Navigation menu start -->
+   <!-- teksten skal bli ikoner don´t @ me-->
+   <nav>
+        <ul>
+            <li style="float:left"><a href="profilv2.html"><img id="swipe-nav-backarrow" src="images/tilbakeknapp friendzone.png"></a></li>
+            <li style="text-align: center"><p id="kontoinstillinger">Kontoinnstillinger</p></li>      
+        </ul>   
+    </nav>
+    
+    <!--Navigation Menu End -->
+
+    <div id="main-content-wrapper">
+        <p id="personinfo">PERSONINFORMASJON</p>
+        <div class="container" id="navn-container">
+            <p id="username-text">Navn</p>
+            <input id="username-output" type="text" value="Ola Nordmann">
+        </div>
+
+        <div class="container" id="email-container">
+                <p id="email-text">Email</p>
+                <input id="email-output" type="text" value="Olanordmann@hotmail.com">
+        </div>
+
+        <div class="container" id="fødselsdato-container">
+                <p id="fødselsdato-text">Fødselsdato</p>
+                <p id="fødselsdato-output">27.06.1997</p>
+        </div>
+
+        <p id="lokasjon">Lokasjon</p>
+        <div class="container" id="lokasjon-container">
+            <p id="lokasjon-output">Oslo</p>
+        </div>
+
+        <div class="container" id="delete-container">
+            <input id="oppdater-button" type="button" value="Oppdater informasjon">
+            <input id="slett-button" type="button" value="Slett meg">
+        </div>
+
+    </div>
+    
+    <script src="scripts/konto.js"></script>
+</body>
+</html>

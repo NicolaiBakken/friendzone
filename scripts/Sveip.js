@@ -89,7 +89,9 @@ function showMatchBox(){
     let newName = "";
     newName = `
         <p>${randomName}</p>
-    `;  
+    `;
+    
+    localStorage.setItem("likename", randomName);
     matchName.innerHTML = newName;
     
 }

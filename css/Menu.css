@@ -37,4 +37,16 @@ nav li img{
     justify-content: center;
 }
 
+#swipe-nav-backarrow {
+    width: 30px;
+    height: 40px;
+}
+
+#kontoinstillinger {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
 /* navigation menu end */
