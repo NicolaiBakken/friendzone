@@ -41,7 +41,6 @@ function updateInfo(){
     let updatedEmail = document.getElementById("email-output");
     localStorage.setItem("email", updatedEmail.value);
     
-    alert(localStorage.getItem("email") + localStorage.getItem("username"));
 }
 
 function deleteInfo(){
