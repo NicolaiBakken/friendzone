@@ -219,6 +219,7 @@
         color: black;
         margin-top: 5rem;
         margin-left: 1rem;
+        font-size: 16px;
     }
 
     #breakline {
@@ -275,7 +276,7 @@
         display: flex;
         justify-content: center;
         margin-top: 5rem;
-        font-size: 2rem;
+        font-size: 16px;
             
     }
 

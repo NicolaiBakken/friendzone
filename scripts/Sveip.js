@@ -1,4 +1,3 @@
-// hjelp med javascript please
 const downButton = document.getElementById("btn-ned");
 const upButton = document.getElementById("btn-opp");
 const interestArea = document.getElementById("background-icons");
